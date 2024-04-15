@@ -1,35 +1,37 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1"
-        <meta title="人物展示">
-        <link rel="stylesheet" href="style page2.css">
-    </head>
-    <body>
-       <header>
-        <div class="navbar">
-            <div class="logo"><img src="logo.png"></div>
-            
-            <div class="nav-links">
-            <a href="index.html">人物介绍</a>
-            <a href="人物展示.html">人物展示</a>
-            <a href="装备介绍.html">装备介绍</a>
-            <a href="配队推荐.html">配队推荐</a>
-            </div>
-        
-        </div>
-        <img src="banner壁纸.jpeg" width="100%"> 
-        </header>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta title="人物展示">
+  <link rel="stylesheet" href="css/style page2.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo"><img src="logo.png"></div>
+
+      <div class="nav-links">
+        <a href="index.html">人物介绍</a>
+        <a href="人物展示.html">人物展示</a>
+        <a href="装备介绍.html">装备介绍</a>
+        <a href="配队推荐.html">配队推荐</a>
+      </div>
+
+    </div>
+    <img src="image/banner壁纸.jpeg" width="100%">
+  </header>
 
 
-        <div class="video-container">
-            <video id="performance video1" class="video1">
-              <source src="角色演示.mp4" type="video/mp4">
-            </video>
-            <div class="title1">角色演示：即兴发挥</div>
-            <div class="description1">
-                <pre>
+  <div class="video-container">
+    <video id="performance video1" class="video1">
+      <source src="角色演示.mp4" type="video/mp4">
+    </video>
+    <div class="title1">角色演示：即兴发挥</div>
+    <div class="description1">
+      <pre>
                     处理违规行为的方法
                     从没有什么固定标准。
                     反正，能解决问题就行了？<br>
@@ -38,14 +40,14 @@
                     莱欧斯利——刘北辰
                     希格雯——赵爽
                 </pre>
-            </div>
-       
-            <video id="performance video2"class="video2">
-            <source src="角色pv.mp4" type="video/mp4">
-            </video> 
-            <div class="title2">角色pv：必要流程</div>
-            <div class="description2">
-                <pre>
+    </div>
+
+    <video id="performance video2" class="video2">
+      <source src="角色pv.mp4" type="video/mp4">
+    </video>
+    <div class="title2">角色pv：必要流程</div>
+    <div class="description2">
+      <pre>
                     梅洛彼得堡作为独立于枫丹廷之外的机构
                     其工作内容由管理人全权负责
                     哪些是无所谓的流程
@@ -55,33 +57,34 @@
                     中文CV：
                     莱欧斯利——刘北辰
                 </pre>
-            </div>
-            <div class="image"><img src="莱欧斯利2抠.png"></div>
-        </div>
+    </div>
+    <div class="image"><img src="image/莱欧斯利2抠.png"></div>
+  </div>
 
-        <script>
-            var video1 = document.getElementById('performance video1');
-            var video2 = document.getElementById('performance video2');
-          
-            video1.onclick = function () {
-              togglePlay(this, video2);
-            };
-          
-            video2.onclick = function () {
-              togglePlay(this, video1);
-            };
-          
-            function togglePlay(current, other) {
-              if (current.paused) {
-                other.pause();
-                current.play();
-              } else {
-                current.pause();
-              }
-            }
-          </script>
-    
-        
-       
-    </body>
+  <script>
+    var video1 = document.getElementById('performance video1');
+    var video2 = document.getElementById('performance video2');
+
+    video1.onclick = function () {
+      togglePlay(this, video2);
+    };
+
+    video2.onclick = function () {
+      togglePlay(this, video1);
+    };
+
+    function togglePlay(current, other) {
+      if (current.paused) {
+        other.pause();
+        current.play();
+      } else {
+        current.pause();
+      }
+    }
+  </script>
+
+
+
+</body>
+
 </html>

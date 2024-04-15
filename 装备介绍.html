@@ -1,86 +1,94 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width,initial-scale=1">
-            <meta title="装备介绍">
-            <link rel="stylesheet" href="style page3.css">
 
-    </head>
-        <body>
-            <header>
-                <div class="navbar">
-                    <div class="logo"><img src="logo.png"></div>
-                    
-                    <div class="nav-links">
-                    <a href="index.html">人物介绍</a>
-                    <a href="人物展示.html">人物展示</a>
-                    <a href="装备介绍.html">装备介绍</a>
-                    <a href="配队推荐.html">配队推荐</a>
-                    </div>
-                
-                </div>
-                <img src="banner壁纸.jpeg" width="100%"> 
-            </header>
-                
-                <div class="tabs">
-                    <div class="tab active" onclick="switchTab(0)">武器介绍</div>
-                    <div class="tab" onclick="switchTab(1)">圣遗物介绍</div>
-                </div>
-                
-                <div class="container active">
-                    <div class="weapon"><img src="监督.png"></div>
-                    <div class="description">
-                        <h2>金流监督</h2>
-                        <p style="background-color:#fecd77; padding:5px">攻击力 48-674   暴击率 4.8%-22.1%</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta title="装备介绍">
+    <link rel="stylesheet" href="css/style page3.css">
 
-                        <p><b>武器技能:</b> 黄金的血潮<br>
-                            <b>攻击力</b>提升<span class="highlight">16%/20%/24%/28%/32%</span>。当前生命值提升或降低时，<b>普通攻击</b>造成的伤害提升<span class="highlight">16%/20%/24%/28%/32%</span>，重击造成的伤害提升<span class="highlight">14%/17.5%/21%/24.5%/28%</span>。该效果持续4秒，至多叠加3层，每0.3秒至多触发一次；处于叠加3层的状态下时，攻击速度提升<span class="highlight">8%/10% /12%/14%/16%</span>。<br>
-                            <br><b>武器介绍:</b>  能够监控特定现象的悬浮仪器，废弃后被拾获者重新改造为其他用途。<br>
-                            <br><b>获取途径:</b>  限定祈愿<br>
-                            <br><b>武器类型:</b>  法器<br>
-                            <br><b>武器TAG:</b>  攻击力、普通攻击、重击、层数叠加、攻击速度</p>
-                    </div>
-                </div>
-                
-                <div class="container">
-                    <div class="artifact"><img src="花.png"></div>
-                    <div class="artifact"><img src="羽.png"></div>
-                    <div class="artifact"><img src="沙.png"></div>
-                    <div class="artifact"><img src="杯.png"></div>
-                    <div class="artifact"><img src="头.png"></div>
-                    <div class="description">
-                        <h2>逐影猎人</h2>
-                        <hr>
-                        <h3>套装构成：</h3>
-                        生之花：猎人的胸花<br>
-                        死之羽：杰作的序曲<br>
-                        时之沙：裁判的时刻<br>
-                        空之杯：遗忘的容器<br>
-                        理之冠：老兵的容颜<hr>
-                        <h3>套装效果:</h3>
-                        <b>2件套：</b>  普通攻击与重击造成的伤害提高15%。<br>
-                        <b>4件套：</b>	当前生命值提升或降低时，暴击率提升12%，该效果持续5秒，至多叠加3次。<span class="tips", title="4件套效果不独立计算时间">Tips</span><br>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><img src="image/logo.png"></div>
+
+            <div class="nav-links">
+                <a href="index.html">人物介绍</a>
+                <a href="人物展示.html">人物展示</a>
+                <a href="装备介绍.html">装备介绍</a>
+                <a href="配队推荐.html">配队推荐</a>
+            </div>
+
+        </div>
+        <img src="image/banner壁纸.jpeg" width="100%">
+    </header>
+
+    <div class="tabs">
+        <div class="tab active" onclick="switchTab(0)">武器介绍</div>
+        <div class="tab" onclick="switchTab(1)">圣遗物介绍</div>
+    </div>
+
+    <div class="container active">
+        <div class="weapon"><img src="image/监督.png"></div>
+        <div class="description">
+            <h2>金流监督</h2>
+            <p style="background-color:#fecd77; padding:5px">攻击力 48-674 暴击率 4.8%-22.1%</p>
+
+            <p><b>武器技能:</b> 黄金的血潮<br>
+                <b>攻击力</b>提升<span class="highlight">16%/20%/24%/28%/32%</span>。当前生命值提升或降低时，<b>普通攻击</b>造成的伤害提升<span
+                    class="highlight">16%/20%/24%/28%/32%</span>，重击造成的伤害提升<span
+                    class="highlight">14%/17.5%/21%/24.5%/28%</span>。该效果持续4秒，至多叠加3层，每0.3秒至多触发一次；处于叠加3层的状态下时，攻击速度提升<span
+                    class="highlight">8%/10% /12%/14%/16%</span>。<br>
+                <br><b>武器介绍:</b> 能够监控特定现象的悬浮仪器，废弃后被拾获者重新改造为其他用途。<br>
+                <br><b>获取途径:</b> 限定祈愿<br>
+                <br><b>武器类型:</b> 法器<br>
+                <br><b>武器TAG:</b> 攻击力、普通攻击、重击、层数叠加、攻击速度
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="artifact"><img src="image/花.png"></div>
+        <div class="artifact"><img src="image/羽.png"></div>
+        <div class="artifact"><img src="image/沙.png"></div>
+        <div class="artifact"><img src="image/杯.png"></div>
+        <div class="artifact"><img src="image/头.png"></div>
+        <div class="description">
+            <h2>逐影猎人</h2>
+            <hr>
+            <h3>套装构成：</h3>
+            生之花：猎人的胸花<br>
+            死之羽：杰作的序曲<br>
+            时之沙：裁判的时刻<br>
+            空之杯：遗忘的容器<br>
+            理之冠：老兵的容颜
+            <hr>
+            <h3>套装效果:</h3>
+            <b>2件套：</b> 普通攻击与重击造成的伤害提高15%。<br>
+            <b>4件套：</b> 当前生命值提升或降低时，暴击率提升12%，该效果持续5秒，至多叠加3次。<span class="tips" , title="4件套效果不独立计算时间">Tips</span><br>
 
 
-                    </div>
-                </div>
-                
-                <script>
-                    function switchTab(index) {
-                        var tabs = document.querySelectorAll('.tab');
-                        var containers = document.querySelectorAll('.container');
-                        for (var i = 0; i < tabs.length; i++) {
-                            if (i === index) {
-                                tabs[i].classList.add('active');
-                                containers[i].classList.add('active');
-                            } else {
-                                tabs[i].classList.remove('active');
-                                containers[i].classList.remove('active');
-                            }
-                        }
-                    }
-                </script>
-                
-        </body>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(index) {
+            var tabs = document.querySelectorAll('.tab');
+            var containers = document.querySelectorAll('.container');
+            for (var i = 0; i < tabs.length; i++) {
+                if (i === index) {
+                    tabs[i].classList.add('active');
+                    containers[i].classList.add('active');
+                } else {
+                    tabs[i].classList.remove('active');
+                    containers[i].classList.remove('active');
+                }
+            }
+        }
+    </script>
+
+</body>
+
 </html>
